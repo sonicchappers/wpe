@@ -2515,22 +2515,22 @@ width: 95%;
 }
 
 /* ===============================================================
-   WEDDING PARTY EVENTS — PURPLE BRAND COLOUR OVERRIDES (2026)
+   WEDDING PARTY EVENTS â€” PURPLE BRAND COLOUR OVERRIDES (2026)
    Original DJEP styles and layout retained above.
-   Brand palette: plum #52076B, purple #70258C, violet #914FB0,
-                  lavender #EDE2F3, pale lavender #F8F5FA.
+   Brand palette: midnight purple #1D1752, slate purple #39316F,
+                  medium purple #625A98, lavender #EAE8F4.
    Semantic warning, success, payment and playlist category colours
    remain distinct for usability.
    =============================================================== */
 :root {
-    --wpe-purple-dark: #52076B;
-    --wpe-purple: #70258C;
-    --wpe-purple-medium: #914FB0;
-    --wpe-purple-light: #B887CE;
-    --wpe-lavender: #EDE2F3;
-    --wpe-lavender-pale: #F8F5FA;
-    --wpe-purple-border: #D7C2E2;
-    --wpe-ink: #33243D;
+    --wpe-purple-dark: #1D1752;
+    --wpe-purple: #1D1752;
+    --wpe-purple-medium: #625A98;
+    --wpe-purple-light: #B8B3D8;
+    --wpe-lavender: #EAE8F4;
+    --wpe-lavender-pale: #F8F7FC;
+    --wpe-purple-border: #D5D1E8;
+    --wpe-ink: #28243D;
 }
 
 /* Main text and links */
@@ -2540,19 +2540,19 @@ a:hover { color: var(--wpe-purple-dark); }
 h1.djep-h1 { color: var(--wpe-purple-dark); }
 h3.djep-h3 { color: var(--wpe-purple); }
 
-/* Section heading bars — explicitly reset old background images and filters */
+/* Section heading bars â€” explicitly reset old background images and filters */
 h2.djep-h2,
 .djep-titlebar,
 .djep-titlebarsmall,
 .djep-titlebarsmaller {
-    background: linear-gradient(180deg, #8845A5 0%, #5A1374 100%);
+    background: linear-gradient(180deg, #39316F 0%, #1D1752 100%);
     background-color: var(--wpe-purple);
     border-color: var(--wpe-purple-dark);
     color: #FFFFFF;
     filter: none;
 }
 .djep-titlebar, .djep-titlebarsmall, .djep-titlebarsmaller {
-    border-bottom-color: #BB8BD0;
+    border-bottom-color: #B8B3D8;
 }
 
 /* Primary navigation: one family of purples, no rainbow hover states */
@@ -2692,8 +2692,8 @@ h2.djep-h2,
 .djep-specialsongbutton:hover,
 .djep-songideabutton:hover,
 .djep-music_selections_navigation-li a:hover {
-    background: #DAC5E6;
-    background-color: #DAC5E6;
+    background: #D5D1E8;
+    background-color: #D5D1E8;
     color: var(--wpe-purple-dark) !important;
     filter: none;
 }
@@ -2714,7 +2714,7 @@ h2.djep-h2,
     background-color: var(--wpe-lavender);
     color: var(--wpe-purple-dark);
 }
-.djep-tablehover { background-color: #E9DAF0; }
+.djep-tablehover { background-color: #EAE8F4; }
 .djep-accordionButton {
     background: var(--wpe-lavender-pale);
     background-color: var(--wpe-lavender-pale);
